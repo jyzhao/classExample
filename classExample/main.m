@@ -15,6 +15,9 @@ int main(int argc, const char * argv[])
 	    
 	    // insert code here...
 	    NSLog(@"Hello, World!");
+		NSString *message = @"show me the money";
+		NSLog(@"the content of the message is %@",message);
+		NSLog(@"the class name of the message is %@",[message className]);
 	    
 	}
     return 0;
